@@ -1,0 +1,109 @@
+body{
+  background-position: center;
+  background-image: url(../img/1.png);
+  background-size: cover;
+  font-family: 'Lalezar', cursive;
+  font-size: 2vh;
+  background-color: #160d22;
+  color: #f8f4f9;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #7c7ee2;
+}
+
+#nav{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar{
+  font-size: x-large;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+a,a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.searchbar {
+  height: 7vh;
+  max-width: 55vh;
+}
+
+input{
+  font-size: 2.5vh;
+  text-align: start;
+  color: #fff;
+  width: 100%;
+  padding: 1.7vh;
+  background-color: transparent;
+  outline: 2px solid #42fcff;
+  border: none;
+  border-radius: 10px;
+}
+
+input:focus{
+  outline: 2px solid #b661fd;
+}
+
+::placeholder{
+  color: #ffffff;
+}
+
+.search-results{
+  display: block;
+}
+
+.search-results{
+  display: flex;
+  margin-top: 2vh;
+  width: 100%;
+  height: 25%;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.h2{
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#main{
+  display: flex;
+  height:calc(100vh - 68px);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table{
+  color: #ffffff;
+}
+
+.table>tbody{
+  vertical-align: middle;
+}
+
+.table>:not(caption)>*>* {
+  background-color: #00000061;
+}
+
+td, th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 9px;
+}
